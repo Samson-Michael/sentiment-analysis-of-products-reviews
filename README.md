@@ -4,7 +4,7 @@ This project focuses on classifying the sentiment of Amazon customer reviews usi
 
 # Dataset Source
 
-We utilized a dataset of Amazon customer reviews spanning various product categories, including books, electronics, and kitchen appliances. The dataset comprises approximately 10261 reviews with ratings ranging from 1 to 5 stars.
+The dataset consists of 10,261 entries and 9 columns, with a mix of integer and object data types. The columns include information such as reviewer ID, product ID (asin), review text, ratings, and timestamps. It was sourced from Kaggle.
 
 # Tools Used
 
