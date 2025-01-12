@@ -6,6 +6,15 @@ This project focuses on classifying the sentiment of Amazon customer reviews usi
 
 We utilized a dataset of Amazon customer reviews spanning various product categories, including books, electronics, and kitchen appliances. The dataset comprises approximately 10261 reviews with ratings ranging from 1 to 5 stars.
 
+# Tools Used
+
+- **Basic Libraries**: pandas, numpy  
+- **NLTK Libraries**: nltk, re, string, WordCloud, STOPWORDS, PorterStemmer, TfidfVectorizer  
+- **Machine Learning Libraries**: sklearn (SVC, LabelEncoder, StandardScaler, MinMaxScaler, ExtraTreesClassifier, GridSearchCV, LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, BernoulliNB, KNeighborsClassifier, OneVsRestClassifier, train_test_split, label_binarize)  
+- **Metrics Libraries**: sklearn.metrics, classification_report, cross_val_score, roc_auc_score, roc_curve, auc  
+- **Visualization Libraries**: matplotlib, seaborn, plotly, textblob, cufflinks  
+- **Other Libraries**: warnings, numpy, itertools, collections, imblearn (SMOTE)
+
 # Preprocessing and Cleaning
 
 The preprocessing involved handling missing values by imputing them as "missing," focusing primarily on review text. The review text and summary columns were merged into a single input to ensure consistency. A new 'sentiment' column was created based on the overall score, categorizing reviews as positive, negative, or neutral. Additionally, the time column was split into separate components for date, month, and year.
