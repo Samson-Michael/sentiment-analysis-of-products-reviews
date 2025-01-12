@@ -25,3 +25,21 @@ In the model building phase, sentiment analysis was performed, and classificatio
 ![image](https://github.com/user-attachments/assets/c58f4bf6-374e-4b42-9da1-ba5299a6801b)
 
 
+# Insights:
+
+- Examining the ROC curve for the classes, classes 2 and 0 are well-classified, as their area under the curve (AUC) is high. An optimal threshold for balancing TPR and FPR would be in the range of 0.6–0.8.
+- For the micro and macro averages, the micro-average performs significantly better, while the macro-average yields a comparatively lower score.
+- If you're unsure about the difference between micro and macro averages, here's a simple explanation: 'A macro-average calculates the metric for each class independently and then averages them, treating all classes equally. On the other hand, a micro-average aggregates the metrics across all classes before calculating the average. In multi-class classification, micro-average is typically preferred when dealing with class imbalance.'
+
+
+# Conclusion
+We effectively classified all classes by splitting sentiments, cleaning text, customizing stopwords, and addressing imbalance with SMOTE.
+
+#### Key insights:
+
+- N-grams are crucial for sentiment analysis, as single words lack context. Avoid using stopwords, as they can include negative terms.
+- Neutral reviews often provide constructive feedback.
+- Most reviews focused on string instruments, especially guitars.
+- Balancing the dataset improved recall and F1 score, highlighting its importance.
+- An F1 score of 94% reflects strong performance in this sentiment analysis.
+
