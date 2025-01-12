@@ -42,13 +42,9 @@ In the model building phase, sentiment analysis was performed, and classificatio
 
 
 # Conclusion
-We effectively classified all classes by splitting sentiments, cleaning text, customizing stopwords, and addressing imbalance with SMOTE.
 
-#### Key insights:
+This project successfully classified the sentiment of customers reviews by leveraging both the VADER sentiment analysis tool and the Hugging Face RoBERTa Transformers package. By employing advanced techniques such as n-gram analysis, text cleaning, and stopword customization, we were able to improve the model's ability to understand and classify sentiment. Additionally, handling the class imbalance using SMOTE ensured that the model was not biased toward the dominant positive sentiment, leading to more accurate results across all sentiment categories.
 
-- N-grams are crucial for sentiment analysis, as single words lack context. Avoid using stopwords, as they can include negative terms.
-- Neutral reviews often provide constructive feedback.
-- Most reviews focused on string instruments, especially guitars.
-- Balancing the dataset improved recall and F1 score, highlighting its importance.
-- An F1 score of 94% reflects strong performance in this sentiment analysis.
+The model demonstrated strong performance, achieving an overall accuracy of 94% with solid F1 scores across positive, negative, and neutral sentiment classes. This indicates that the model was able to effectively differentiate between the different sentiments in the reviews. Key insights from the analysis highlighted the importance of n-grams in capturing context, as single words alone may not fully represent the sentiment of a review. Furthermore, neutral reviews were found to offer constructive feedback, which could be valuable for understanding customer concerns beyond just positive or negative sentiments.
 
+Balancing the dataset with SMOTE significantly improved the model's recall and F1 score, underscoring the importance of addressing class imbalance in sentiment analysis tasks. The results showed that a well-balanced dataset leads to more reliable predictions and enhances the overall performance of the model. In conclusion, the project demonstrates that using advanced preprocessing techniques and model-building strategies can effectively classify sentiment in large-scale customer review datasets, providing valuable insights into customer opinions.
