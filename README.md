@@ -1,9 +1,7 @@
 # Sentiment Analysis of Products Reviews
-
 This project focuses on classifying the sentiment of Amazon customer reviews using the VADER sentiment analysis tool from the Natural Language Toolkit and the Hugging Face RoBERTa Transformers package. Additionally, it includes a comparison of the sentiment analysis results from both tools.
 
 # Dataset Source
-
 The dataset consists of 10,261 entries and 9 columns, with a mix of integer and object data types. The columns include information such as reviewer ID, product ID (asin), review text, ratings, and timestamps. It was sourced from Kaggle.
 
 # Tools Used
